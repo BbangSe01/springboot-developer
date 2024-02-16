@@ -25,6 +25,7 @@ dependencies {
     // 소스 코드 내용 변경시 서버 재시작 없이 서버가 자동으로 재시작해주는 라이브러리
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 test {
